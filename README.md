@@ -30,6 +30,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **08** | [Identity Protection & Risk Policies](https://github.com/Kendelv5/08-Identity-Protection-Risk-Policies) | Microsoft Entra ID, Risk Engine | Implemented behavior-driven Conditional Access risk policies to automatically trigger remediation and secure compromised accounts. |
 | **09** | [App Registrations & OIDC](https://github.com/Kendelv5/09-App-Registrations-OIDC) | Microsoft Entra ID, OIDC, OAuth 2.0 | Configured custom enterprise application objects, token flows, and confidential client credentials for modern application-level IAM integration. |
 | **10** | [Entra ID Lifecycle Workflows](https://github.com/Kendelv5/10-Lifecycle-Workflows) | Microsoft Entra ID, Lifecycle Governance | Configured automated, cloud-native orchestration engines to execute scheduled offboarding tasks, session revocation, and account disabling. |
+| **11** | [Enterprise Application Provisioning & SCIM](./11-SCIM-App-Provisioning/) | Microsoft Entra ID, SCIM 2.0 | Established automated SaaS user synchronization pipelines, attribute mapping schemas, and endpoint connectivity handshakes. |
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
@@ -84,5 +85,10 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 * **Challenge:** Mitigating insider threats and administrative oversight during employee terminations and offboarding cycles.
 * **Solution:** Deployed native Microsoft Entra ID Lifecycle Workflows (`Automated-Leaver-Offboarding`) to automate scheduled task execution, account deactivation, and session revocation.
 * **Key Takeaway:** Mastered automated cloud orchestration to eliminate manual day-two administrative overhead and close security gaps left by delayed offboarding.
+
+  ### Lab 11: Enterprise Application Provisioning & SCIM
+* **Challenge:** Synchronizing user lifecycles and attributes across external SaaS platforms without relying on manual administrative intervention.
+* **Solution:** Configured automated enterprise application provisioning using the SCIM protocol, establishing secure bearer token endpoint handshakes and managing attribute mapping schemas.
+* **Key Takeaway:** Mastered automated SaaS identity synchronization, endpoint connectivity verification, and protocol-level attribute translation.
 ---
 *Connect with me on [LinkedIn](https://www.linkedin.com/in/kendel-edwards-abb26aa7/) or reach out via email for inquiries.*
