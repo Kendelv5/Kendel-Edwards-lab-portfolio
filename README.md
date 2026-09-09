@@ -30,7 +30,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **08** | [Identity Protection & Risk Policies](https://github.com/Kendelv5/08-Identity-Protection-Risk-Policies) | Microsoft Entra ID, Risk Engine | Implemented behavior-driven Conditional Access risk policies to automatically trigger remediation and secure compromised accounts. |
 | **09** | [App Registrations & OIDC](https://github.com/Kendelv5/09-App-Registrations-OIDC) | Microsoft Entra ID, OIDC, OAuth 2.0 | Configured custom enterprise application objects, token flows, and confidential client credentials for modern application-level IAM integration. |
 | **10** | [Entra ID Lifecycle Workflows](https://github.com/Kendelv5/10-Lifecycle-Workflows) | Microsoft Entra ID, Lifecycle Governance | Configured automated, cloud-native orchestration engines to execute scheduled offboarding tasks, session revocation, and account disabling. |
-| **11** | [Enterprise Application Provisioning & SCIM](./11-SCIM-App-Provisioning/) | Microsoft Entra ID, SCIM 2.0 | Established automated SaaS user synchronization pipelines, attribute mapping schemas, and endpoint connectivity handshakes. |
+| **11** | [Enterprise Application Provisioning & SCIM](https://github.com/Kendelv5/11-SCIM-App-Provisioning) | Microsoft Entra ID, SCIM 2.0 | Established automated SaaS user synchronization pipelines, attribute mapping schemas, and endpoint connectivity handshakes. |
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
