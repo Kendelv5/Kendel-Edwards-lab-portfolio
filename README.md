@@ -32,6 +32,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **10** | [Entra ID Lifecycle Workflows](https://github.com/Kendelv5/10-Lifecycle-Workflows) | Microsoft Entra ID, Lifecycle Governance | Configured automated, cloud-native orchestration engines to execute scheduled offboarding tasks, session revocation, and account disabling. |
 | **11** | [Enterprise Application Provisioning & SCIM](https://github.com/Kendelv5/11-SCIM-App-Provisioning) | Microsoft Entra ID, SCIM 2.0 | Established automated SaaS user synchronization pipelines, attribute mapping schemas, and endpoint connectivity handshakes. |
 | **12** | [Terraform Entra ID Provisioning](https://github.com/Kendelv5/12-Terraform-Entra-Lab) | Terraform, HashiCorp AzureAD Provider | Automated Microsoft Entra ID resource provisioning, resolved verified domain constraints, and established secure service principal authentication and object ID mapping. |
+| 13 | Okta Adaptive MFA & Contextual Policies | Okta Identity Cloud, Adaptive MFA, Network Zones | Configured zero-trust authentication policies to dynamically enforce risk-based step-up multi-factor authentication based on network perimeter telemetry. |
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
@@ -96,6 +97,11 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 * Challenge: Automating identity lifecycle management and resource provisioning within Microsoft Entra ID without relying on manual administrative portal clicks.
 * **Solution: Configured Infrastructure as Code using Terraform with the HashiCorp AzureAD provider, establishing secure service principal authentication, resolving verified domain constraints, and utilizing raw object       IDs for dynamic group membership mapping.
 * **Key Takeaway: Mastered declarative cloud identity provisioning, authentication troubleshooting for service principals, and automated tenant resource relationships.
+
+### Lab 13: Okta Adaptive MFA & Contextual Policies
+* **Challenge:** Enforcing risk-based, zero-trust access controls without compromising legitimate user experience across different network perimeters.
+* **Solution:** Configured Okta network zones and authentication policies to dynamically trigger step-up multi-factor authentication based on external IP ranges and contextual connection telemetry.
+* **Key Takeaway:** Mastered zero-trust policy architecture, network zone segregation, and automated security challenge enforcement.
 
 ---
 *Connect with me on [LinkedIn](https://www.linkedin.com/in/kendel-edwards-abb26aa7/) or reach out via email for inquiries.*
