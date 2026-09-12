@@ -31,6 +31,7 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **09** | [App Registrations & OIDC](https://github.com/Kendelv5/09-App-Registrations-OIDC) | Microsoft Entra ID, OIDC, OAuth 2.0 | Configured custom enterprise application objects, token flows, and confidential client credentials for modern application-level IAM integration. |
 | **10** | [Entra ID Lifecycle Workflows](https://github.com/Kendelv5/10-Lifecycle-Workflows) | Microsoft Entra ID, Lifecycle Governance | Configured automated, cloud-native orchestration engines to execute scheduled offboarding tasks, session revocation, and account disabling. |
 | **11** | [Enterprise Application Provisioning & SCIM](https://github.com/Kendelv5/11-SCIM-App-Provisioning) | Microsoft Entra ID, SCIM 2.0 | Established automated SaaS user synchronization pipelines, attribute mapping schemas, and endpoint connectivity handshakes. |
+| **12** | [Terraform Entra ID Provisioning](https://github.com/Kendelv5/12-Terraform-Entra-Lab) | Terraform, HashiCorp AzureAD Provider | Automated Microsoft Entra ID resource provisioning, resolved verified domain constraints, and established secure service principal authentication and object ID mapping. |
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
@@ -90,5 +91,11 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 * **Challenge:** Synchronizing user lifecycles and attributes across external SaaS platforms without relying on manual administrative intervention.
 * **Solution:** Configured automated enterprise application provisioning using the SCIM protocol, establishing secure bearer token endpoint handshakes and managing attribute mapping schemas.
 * **Key Takeaway:** Mastered automated SaaS identity synchronization, endpoint connectivity verification, and protocol-level attribute translation.
+
+ ### Lab 12: Terraform Azure Entra ID Provisioning
+* Challenge: Automating identity lifecycle management and resource provisioning within Microsoft Entra ID without relying on manual administrative portal clicks.
+* **Solution: Configured Infrastructure as Code using Terraform with the HashiCorp AzureAD provider, establishing secure service principal authentication, resolving verified domain constraints, and utilizing raw object       IDs for dynamic group membership mapping.
+* **Key Takeaway: Mastered declarative cloud identity provisioning, authentication troubleshooting for service principals, and automated tenant resource relationships.
+
 ---
 *Connect with me on [LinkedIn](https://www.linkedin.com/in/kendel-edwards-abb26aa7/) or reach out via email for inquiries.*
