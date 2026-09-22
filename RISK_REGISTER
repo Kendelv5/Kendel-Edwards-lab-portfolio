@@ -1,0 +1,32 @@
+# Portfolio Project: Enterprise Risk Register & Vendor Assessment
+
+## 📋 Project Overview
+This project simulates a comprehensive Governance, Risk, and Compliance (GRC) risk register and third-party risk assessment framework tailored for a fintech/payment-processing environment. It demonstrates the ability to identify, quantify, and treat security risks across cloud infrastructure, access control, third-party vendors, and data privacy regulations (**SOC 2, PCI-DSS, ISO 27001, NIST SP 800-53**).
+
+---
+
+## 📊 Enterprise Risk Assessment Matrix
+
+The risk register below evaluates inherent risks using an **Impact x Likelihood** scoring model (scale 1–5), outlines specific remediation plans and compensating controls, and projects the resulting residual risk.
+
+| Risk ID | Asset / Process | Threat / Vulnerability Description | Control Framework Mapping | Inherent Impact | Inherent Likelihood | Inherent Risk Score | Recommended Remediation / Treatment Plan | Compensating Controls | Residual Impact | Residual Likelihood | Residual Risk Score | Status |
+| :--- | :--- | :--- | :--- | :---: | :---: | :---: | :--- | :--- | :---: | :---: | :---: | :--- |
+| **RSK-001** | Database Admin Access | Lack of Multi-Factor Authentication (MFA) for administrative access to payment and ACH databases. | SOC 2 (CC6.1) / NIST AC-2 | 5 | 4 | **20 (High)** | Enforce mandatory hardware token MFA for all database administrator accounts within 30 days. | None | 2 | 1 | **2 (Low)** | In Progress |
+| **RSK-002** | Customer Payment Portal | Sensitive cardholder data or primary account numbers (PAN) inadvertently logged during transaction failures. | PCI-DSS Req 3.4 / SOC 2 (CC6.6) | 5 | 4 | **20 (High)** | Implement automated log-scrubbing scripts to mask PAN/CVV data before writing to log files. | TLS 1.3 encryption in transit; tokenization. | 2 | 2 | **4 (Low)** | Open |
+| **RSK-003** | Cloud IAM Environment | Employees retain permanent "Admin" or "PowerUser" permissions long after project completion. | NIST SP 800-53 (AC-6) / SOC 2 (CC6.1) | 4 | 4 | **16 (High)** | Implement Just-In-Time (JIT) access via PAM tools and enforce automated quarterly access reviews. | Multi-Factor Authentication (MFA) enabled globally. | 2 | 2 | **4 (Low)** | Open |
+| **RSK-004** | Third-Party Vendor API | High-risk third-party vendors lack annual re-assessments or valid SOC 2 Type II reports. | ISO 27001 (A.15) / SOC 2 (CC9.2) | 4 | 3 | **12 (Medium)** | Establish an automated alert system in the GRC procurement pipeline to trigger annual vendor reviews. | Initial security review completed at onboarding. | 3 | 1 | **3 (Low)** | Mitigated |
+| **RSK-005** | Customer Data Privacy | Failure to fulfill customer "Right to be Forgotten" requests within statutory windows. | GDPR / CCPA / SOC 2 (P.1) | 3 | 4 | **12 (Medium)** | Implement a centralized privacy ticketing workflow and data-mapping catalog for PII tracking. | Legal team manually monitors incoming inquiries. | 3 | 1 | **3 (Low)** | Under Review |
+| **RSK-006** | Cloud Virtual Machines | Virtual machines run unpatched operating system packages past critical remediation windows. | NIST SP 800-53 (SI-2) / SOC 2 (CC7.1) | 5 | 4 | **20 (High)** | Deploy automated patch management pipelines and monthly vulnerability scanning (e.g., AWS Inspector). | Network segmentation via Security Groups. | 2 | 2 | **4 (Low)** | Open |
+
+---
+
+## 🛠️ Risk Scoring Methodology
+
+* **Inherent Risk Score:** Calculated as `Impact (1-5) × Likelihood (1-5)`.
+  * **1–6:** Low Risk
+  * **8–12:** Medium Risk
+  * **15–25:** High Risk
+* **Residual Risk Score:** The remaining risk level after applying compensating controls, technical remediation, or administrative policies.
+
+## 📂 Related Artifacts
+* [Executive Risk Memo](./risk-memo.md) – A formal risk acceptance and conditional approval recommendation memo addressed to leadership.
