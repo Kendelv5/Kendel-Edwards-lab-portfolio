@@ -3,6 +3,9 @@
 ## 📋 Project Overview
 This project simulates a comprehensive Governance, Risk, and Compliance (GRC) risk register and third-party risk assessment framework tailored for a fintech/payment-processing environment. It demonstrates the ability to identify, quantify, and treat security risks across cloud infrastructure, access control, third-party vendors, and data privacy regulations (**SOC 2, PCI-DSS, ISO 27001, NIST SP 800-53**).
 
+## 🚀 Portfolio Projects
+* **[Enterprise Risk Register & Vendor Assessment](https://docs.google.com/spreadsheets/d/1r0oPQ62n_B7kQ1wCSkNOlHsw3GnTLlSp9wO6XAnfseI/edit?usp=sharing)** — A comprehensive GRC risk matrix and scoring methodology tailored for a fintech/payment-processing environment.
+* **[IAM Lifecycle & JML Automation Lab](./path-to-your-other-lab)** *(Optional: Add your other labs here)*
 ---
 
 ## 📊 Enterprise Risk Assessment Matrix
