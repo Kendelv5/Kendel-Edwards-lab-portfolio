@@ -1,9 +1,9 @@
-# Identity and Access Management (IAM) Lab Portfolio
+# Cybersecurity Lab Portfolio
 
 Welcome to my IAM engineering and administration portfolio. This repository documents a series of hands-on homelabs designed to build, secure, and troubleshoot enterprise identity architectures using industry-leading cloud platforms like Okta and Microsoft Entra ID. I am a recent graduate of DeVry University's undergraduate cybersecurity program. My passion for technology and security comes from life lessons from being hacked and watching family losing credentials and become victims of ransomware. I love information security and the professionals who keep data protected.
 
 The goal of this portfolio is to bridge theoretical security concepts with practical implementation, focusing on Zero Trust principles, automated identity lifecycles, and secure federation.
-
+I am also incorporating GRC projects with policy understanding, compliance, and cyber risk work.
 ---
 
 ## 🛠️ Skills & Technologies Demonstrated
@@ -32,7 +32,8 @@ The goal of this portfolio is to bridge theoretical security concepts with pract
 | **10** | [Entra ID Lifecycle Workflows](https://github.com/Kendelv5/10-Lifecycle-Workflows) | Microsoft Entra ID, Lifecycle Governance | Configured automated, cloud-native orchestration engines to execute scheduled offboarding tasks, session revocation, and account disabling. |
 | **11** | [Enterprise Application Provisioning & SCIM](https://github.com/Kendelv5/11-SCIM-App-Provisioning) | Microsoft Entra ID, SCIM 2.0 | Established automated SaaS user synchronization pipelines, attribute mapping schemas, and endpoint connectivity handshakes. |
 | **12** | [Terraform Entra ID Provisioning](https://github.com/Kendelv5/12-Terraform-Entra-Lab) | Terraform, HashiCorp AzureAD Provider | Automated Microsoft Entra ID resource provisioning, resolved verified domain constraints, and established secure service principal authentication and object ID mapping. |
-| 13 | [Okta Adaptive MFA & Contextual Policies](https://github.com/Kendelv5/13-Okta-Adaptive-MFA) | Okta Identity Cloud, Adaptive MFA, Network Zones | Configured zero-trust authentication policies to dynamically enforce risk-based step-up multi-factor authentication based on network perimeter telemetry. |
+| **13** | [Okta Adaptive MFA & Contextual Policies](https://github.com/Kendelv5/13-Okta-Adaptive-MFA) | Okta Identity Cloud, Adaptive MFA, Network Zones | Configured zero-trust authentication policies to dynamically enforce risk-based step-up multi-factor authentication based on network perimeter telemetry. |
+| **14**| [Enterprise Risk Register & Vendor Assessment](./RISK_REGISTER.md)** — A comprehensive GRC risk matrix and scoring methodology tailored for a fintech/payment-processing environment.
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
