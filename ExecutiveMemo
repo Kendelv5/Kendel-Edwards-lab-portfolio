@@ -1,0 +1,36 @@
+MEMORANDUM
+
+TO:      [Name/Title, e.g., Head of InfoSec & Infrastructure]
+FROM:    [Your Name], Information Security Compliance Analyst
+DATE:    September 18, 2026
+SUBJECT: Formal Risk Assessment & Recommendation: [Vendor or Project Name]
+
+----------------------------------------------------------------------------------------------------
+
+1. EXECUTIVE SUMMARY
+[Provide a 2-3 sentence overview of what is being evaluated, why the review was triggered, and the ultimate bottom-line recommendation (e.g., Approve, Conditional Approval, Reject).]
+
+2. SCOPE & OBJECTIVE
+* System/Vendor Evaluated: [Insert Name]
+* Data Classification: [e.g., PII, Financial Data, ACH Routing Data]
+* Applicable Regulations & Frameworks: [e.g., SOC 2 Type II, PCI-DSS, NACHA Operating Rules]
+
+3. KEY FINDINGS & RISK ANALYSIS
+During the security evaluation of [Vendor/System], the following critical control gaps were identified:
+* Finding 1: [Short description of the gap, e.g., Missing administrative MFA].
+* Finding 2: [Short description of the gap, e.g., Outdated vulnerability scans].
+
+4. RISK TREATMENT OPTIONS CONSIDERED
+* Option A (Acceptance): Accept the risk without changes. (Rejected due to potential regulatory non-compliance under NACHA/PCI).
+* Option B (Mitigation): Require the vendor/internal team to implement specific technical controls before proceeding. (Selected).
+
+5. FINAL RECOMMENDATION & ACTION PLAN
+I recommend **CONDITIONAL APPROVAL** for [Project/Vendor] subject to the execution of the following Plan of Action and Milestones (POA&M):
+1. [Action Item 1 with a strict deadline, e.g., Implement MFA within 30 days].
+2. [Action Item 2 with a strict deadline, e.g., Provide updated compliance artifacts within 60 days].
+
+----------------------------------------------------------------------------------------------------
+APPROVAL BLOCK:
+
+Approved By: ___________________________ Date: ______________
+[Title of Executive]
