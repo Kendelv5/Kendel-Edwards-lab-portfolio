@@ -105,5 +105,21 @@ I am also incorporating GRC projects with policy understanding, compliance, and 
 * **Solution:** Configured Okta network zones and authentication policies to dynamically trigger step-up multi-factor authentication based on external IP ranges and contextual connection telemetry.
 * **Key Takeaway:** Mastered zero-trust policy architecture, network zone segregation, and automated security challenge enforcement.
 
+### 🛡️ Lab 14: Enterprise Risk Register & Vendor Assessment
+* **Challenge:** Organizations need a systematic way to identify, quantify, and track internal vulnerabilities, vendor risks, and operational threats to prioritize remediation efforts and maintain compliance.
+* **Solution:** Developed a comprehensive Enterprise Risk Register tailored for a fintech/payment-processing environment. Implemented industry-standard risk scoring methodologies to evaluate inherent versus residual risk, categorize threats, and document mitigating security controls.
+* **Key Takeaways:** 
+  * Mastered the distinction between qualitative and quantitative risk analysis.
+  * Demonstrated ability to evaluate third-party vendor risks and map compensating controls.
+  * Showcased documentation best practices essential for audit readiness and stakeholder reporting.
+
+### 📄 Lab 15: Privacy Policy Risk & Regulatory Compliance Assessment
+* **Challenge:** Public-facing privacy policies often contain hidden compliance gaps, copy-paste errors, or fail to account for cross-jurisdictional privacy laws, exposing organizations to massive regulatory fines. 
+* **Solution:** Conducted a comparative GRC analysis of two distinct corporate privacy policies (Insurance sector vs. Global Digital Marketplace). Utilized a 5-step auditing workflow to map policy language against major frameworks including **GDPR, CCPA/CPRA, GLBA, and TCPA**, identifying actionable legal liabilities and inherent operational risks.
+* **Key Takeaways:** 
+  * Translated complex legal text into actionable risk register findings (e.g., identifying TCPA violations and missing US state privacy rights).
+  * Evaluated Third-Party Risk Management (TPRM) requirements, including Data Processing Agreements (DPAs) and processor security SLAs.
+  * Demonstrated mature understanding of cross-border data transfer risks (CLOUD Act vs. GDPR) and unstructured AI data retention vulnerabilities.
+
 ---
 *Connect with me on [LinkedIn](https://www.linkedin.com/in/kendel-edwards-abb26aa7/) or reach out via email for inquiries.*
