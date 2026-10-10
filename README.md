@@ -34,6 +34,7 @@ I am also incorporating GRC projects with policy understanding, compliance, and 
 | **12** | [Terraform Entra ID Provisioning](https://github.com/Kendelv5/12-Terraform-Entra-Lab) | Terraform, HashiCorp AzureAD Provider | Automated Microsoft Entra ID resource provisioning, resolved verified domain constraints, and established secure service principal authentication and object ID mapping. |
 | **13** | [Okta Adaptive MFA & Contextual Policies](https://github.com/Kendelv5/13-Okta-Adaptive-MFA) | Okta Identity Cloud, Adaptive MFA, Network Zones | Configured zero-trust authentication policies to dynamically enforce risk-based step-up multi-factor authentication based on network perimeter telemetry. |
 | **14**| [Enterprise Risk Register & Vendor Assessment](https://github.com/Kendelv5/Kendel-Edwards-lab-portfolio/blob/main/RISK_REGISTER) | Google Sheets, Microsoft Excel, Google | A comprehensive GRC risk matrix and scoring methodology tailored for a fintech/payment-processing environment.
+|**15**| [Privacy Policy Risk & Compliance Assessments](./PRIVACY_POLICY_ASSESSMENT.md)** — A comparative GRC analysis evaluating corporate privacy policies against CCPA, GDPR, TCPA, and GLBA frameworks, highlighting regulatory gaps and inherent third-party risks.
 ---
 
 ## 🚀 Lab Architecture & Implementation Highlights
